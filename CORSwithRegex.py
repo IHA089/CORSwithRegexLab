@@ -8,7 +8,7 @@ import uuid, datetime, sqlite3, hashlib, random, os, secrets, requests, string, 
 log = logging.getLogger('werkzeug')
 log.setLevel(logging.ERROR)
 
-lab_type = "CORS"
+lab_type = "CORSMisconfiguration"
 lab_name = "CORSwithRegexLab"
 
 user_data = {}
